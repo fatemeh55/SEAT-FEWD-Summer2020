@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- We have a few different options when including CSS in our project. -->
+    <!-- We can reference a CSS file inside of the <head> element as shown on above -->
+  </head>
+
+  <style>
+    /* We can also include CSS styles within style tags inside our HTML file.   */
+    /* this is a comment in CSS */
+
+    /* CSS comments begin with a forward slash followed by an asterisk and the the comment text and finally closed with an astersik and forward slash */
+
+    /* Like HTML comments, it will not appear as part of the rendered file in the broswer */
+
+    /* We can use comments communicate wth other developers or to organize our code */
+
+    /* /////////////////////////////
+    ////////  MAIN SECTION /////////
+    //////////////////////////////*/
+    div {
+      margin: 0 0 50px 0;
+
+      /* In CSS, we have a few properties that can define rules for all four sides of a box or an individual side. A few of these properties include margin, padding and border.
+
+      Using margin as an example below but the same concept can be applied to padding and border
+
+      margin: 50px
+        :: Defines 50 pixel margin on the top, right, bottom and left sides of a box
+
+      margin: 10px 5px 50px 20px
+
+        :: Defines the following in clockwise order:
+            10px margin on the top of a box,
+            5px margin on the right of a box,
+            50px maring on the bottom of a box,
+            20px border on the left of a box
+
+      margin: 10px 25px
+        :: Defines the following:
+            10px margin on the top and bottom of a box,
+            20px margin on the left and right of a box
+
+      Defining indiviual sides:
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 50px;
+
+      */
+
+      padding: 50px;
+
+      border: 3px solid black;
+      border-top: 10px dashed green;
+      border-bottom: 1px dotted blue;
+
+      border-left: 17px solid grey;
+      border-right: 17px solid grey;
+
+      padding: 10px;
+    }
+  </style>
+
+  <body>
+    <header>
+      <!-- ///////////////////////////// -->
+      <!-- ///////// HEADINGS ////////// -->
+      <!-- ///////////////////////////// -->
+
+      <!-- <h1>I am the large heading</h1>
+        <h2>I am slightly smaller than h1</h2>
+        <h3>heading</h3>
+        <h4>heading</h4>
+        <h5>heading</h5>
+        <h6>I am the smallest heading</h6> -->
+
+      <h1>Our News Page</h1>
+    </header>
+
+    <main>
+      <!-- /////////////////////////// -->
+      <!-- //////  WRAPPERS  ///////// -->
+      <!-- /////////////////////////// -->
+
+      <!-- the concept of "wrappers" is everywhere in programmng -->
+
+      <!-- <p>this is a short paragraph</p>
+        "this is a short paragraph" text is wrapped with <p> tags
+
+          <p><i>shorter</i> paragraph</p>
+          "shorter paragraph" text is wrapped in <p> tags, but  "shorter" is also wrapped in <i> tags.
+
+          This structure is also know to have a parent-child relationship in html, where one element is nested inside of another
+
+
+
+          ie:
+          Here <main> has two child elements, that is the two <section> tags.
+          Similarly both <section> tags have parent-child relationship with <p> tags
+          A sibling relationship also exists here amongst the two <section> tags
+          <main>
+            <section><p>...</p></section>
+            <section><p>...</p></section>
+          </main>
+
+      -->
+
+      <div>
+        <h4>Cat escapes crate, now found</h4>
+        <p>
+          Molly the cat escaped from her crate last night. She was
+          found this morning hiding behind the trees. Molly is safely
+          back in her crate.
+          <i>
+            <a href="https://google.com" target="_blank"
+              >Read more...</a
+            >
+          </i>
+        </p>
+      </div>
+
+      <div>
+        <h4>Coffee becomes scarce in-home</h4>
+
+        <p>
+          Man goes nuts after not drinking enough coffee.
+          <i>
+            <a href="https://google.com" target="_blank"
+              >Read more...</a
+            >
+          </i>
+        </p>
+      </div>
+
+      <div>
+        <h4>Coffee becomes scarce in-home</h4>
+        <p>
+          Man goes nuts after not drinking enough coffee.
+          <i>
+            <a href="https://google.com" target="_blank"
+              >Read more...</a
+            >
+          </i>
+        </p>
+      </div>
+
+      <div>
+        <img src="https://picsum.photos/200" alt="random image" />
+      </div>
+    </main>
+  </body>
+</html>
