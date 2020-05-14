@@ -2,7 +2,7 @@
 
 <!-- To view this file in preview mode in Visual Studio Code, press Control + Shift + v (Windows) or Command + Shift + v (Mac)-->
 
-###Week one mini assignment:
+### Week one mini assignment:
 
 Create a web page of an activity that might require the use of an unordered list, an ordered list, and paragraph(s) for context. We created a recipe in class but it can be any activity you would like.
 
