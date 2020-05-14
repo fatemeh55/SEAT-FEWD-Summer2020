@@ -3,14 +3,16 @@
 <!-- To view this file in preview mode in Visual Studio Code, press Control + Shift + v (Windows) or Command + Shift + v (Mac)-->
 
 
-#SEAT / FrontEnd Web Development
+# SEAT / FrontEnd Web Development
 
-###Core Focus
+### Core Focus
 This course will focus on the fundamentals of HTML, CSS, and JavaScript. We will be using some of the same tools that developers use in their day-to-day workflow such as Visual Studio Code and Git.
 
-###Getting started
+### Getting started
 
-We begin this course with the creation of [Github](www.github.com) accounts. Github is a cloud environment and will serve as our main storage for our coding projects.
+We begin this course with the creation of [Github][github] accounts. Github is a cloud environment and will serve as our main storage for our coding projects.
+
+[github]: www.github.com
 
 Later in the course we will discuss how to use Github as a version control system. This will allow us to take _snapshots_ of our projects that we can later access a previous version of our project. It is similar to saving a word processing document, but with historical content attached to those save points. We will discuss this more in depth throughout the course.
 
@@ -20,7 +22,7 @@ Although Codesandbox was built on top of Visual Studio Code, sometimes Visual St
 
 
 
-###Downloads
+### Downloads
 
 <div class="icon-container">
 <div>
@@ -44,17 +46,17 @@ Although Codesandbox was built on top of Visual Studio Code, sometimes Visual St
 
 [Git](https://git-scm.com/downloads)
 
-###References
+### References
 
 [MDN](https://developer.mozilla.org/en-US/) - A fantastic resources for all things HTML, CSS and JavaScript related from the folks who brought us Firefox
 [W3Schools](https://www.w3schools.com/) - Great general purpose reference with good explanations
 
-###Blogs
+### Blogs
 [Smashing magazine](https://www.smashingmagazine.com/)
 [Codrops](https://tympanus.net/codrops/)
 [Scotch.io](https://scotch.io/)
 
-###Podcasts
+### Podcasts
 [Syntax](https://syntax.fm/)
 [CodepenRaido](https://blog.codepen.io/radio/)
 
