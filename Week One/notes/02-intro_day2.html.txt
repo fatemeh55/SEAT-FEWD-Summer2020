@@ -1,0 +1,111 @@
+<!-- /////////////////////////////////////////////////////// -->
+<!-- ///////     This project can be found @     /////////// -->
+<!--   https://codesandbox.io/s/intro-to-html-and-css-y2s7t  -->
+<!-- /////////////////////////////////////////////////////// -->
+<!-- /////////////////////////////////////////////////////// -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>SEAT | Intro to HTML, CSS and JavaScript</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Intro to HTML and CSS
+      </h1>
+
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+    </header>
+
+    <main>
+      <!-- the <main> tag is where we can insert all of the main content of our webpage. It can contain several html elements. -->
+
+      <div>
+        <!-- The <div> tag is used to create logically separate the content of the html.  -->
+
+        <!-- this document has four separate sections indicated by the <div> tags. They create a logical separation of the paragraphs, unordered list, ordered list and the image -->
+        <p>
+          This is a <b>paragrah</b>.
+
+          <!-- the <b> and <strong> tags are used to make our text bold. -->
+          <!-- <i> and <em> tags are used to italicize text -->
+
+          <!-- The primary difference between [<b> and <strong>] and [<i> and <em>] is in their semantic definition. <b> and <i> tags are not considerd semantically meaningful to the brower or assistive reading devices but an assistive reading device will add some inflection on text that is wrapped in <em> and <strong> tags -->
+          <em>It is a very long <strong>paragraph</strong></em> and it
+          goes on and on a nd on aodn on
+        </p>
+
+        <p>
+          This is another paragraph. it is not a long as the first
+          paragraph but still pretty long.
+        </p>
+
+        <p>
+          this is some really important text!! It links to really
+          important content!!
+
+          <a href="https://wikipedia.com" target="_blank"
+            >Go to Wiki</a
+          >
+          <!-- Anchor tags are used to redirect users to either some other part of the website, webpage or to link to an external site  -->
+          <!-- the  "_blank" value of the 'target' attribute allows links to be opened in a seperate tab -->
+          <!-- the href attribute defines the location of the link -->
+        </p>
+      </div>
+
+      <div>
+        <p>Ingredients</p>
+        <ul>
+          <!-- The <ul> tag, unordered list, groups <li>, lists items. The order of the list items can be completely arbitrary. They do not need to be accomplished in the order that they appear  -->
+          <li>1 cup of flour</li>
+          <li>sugar</li>
+          <li>cinnamon</li>
+          <li>nutmeg</li>
+        </ul>
+      </div>
+
+      <div>
+        <!-- ordered lists -->
+        <p>How to make (just) pancakes</p>
+
+        <ol>
+          <!-- The <ol> tag, ordered list, can also wrap list items. Unlike, the <ul> tag, the <ol> numbers our <li>, list items. Typically the <ol> tag is used for list items that need to be accomplished in the order that they appear, ie: the directions of a recipe -->
+          <li>
+            Combine flour, cinnamon, baking powder and sugar in a
+            large bowl
+          </li>
+          <li>Wisk together milk, eggs and oil until fluffy</li>
+          <li>Combine wet a dry ingreidnets until silky smooth</li>
+          <li><a href="#">Learn to cook pancakes here</a></li>
+        </ol>
+      </div>
+
+      <div>
+        <img
+          src="https://images.media-allrecipes.com/userphotos/600x600/4948036.jpg"
+        />
+
+        <!-- the <img> tag is used to add images to our webpage. Similar to the href attribute of the <a> tag, the src (source) attribute defines the location of the image  -->
+      </div>
+    </main>
+  </body>
+</html>
+
+

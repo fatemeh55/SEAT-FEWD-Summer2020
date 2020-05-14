@@ -1,0 +1,106 @@
+<!-- This is a comment in HTML. It starts with the opening angle bracket, exclamation mark and two dashes followed by comment text and finally closed with two dashes and a closing angle bracket -->
+
+<!-- You can type as much or as little as you like and they will not be visible in the browser -->
+
+<!-- Usually comments are used to describe our code to other developers -->
+
+<!DOCTYPE html>
+<!-- the <!DOCTYPE html> tells the browser what kind of file it is working with -->
+
+<!-- Most HTML elements have and opening and closing tag
+
+  <html>
+    <body>
+    </body>
+  </html>
+
+
+  closing tags have a forward slash at the start of the text within the angle brackets
+
+-->
+
+<html lang="en">
+  <!-- The opening html tag is where all of the content of our site goes. Usually you'll see a language attribute that defines the language the browser should interpret the site  -->
+
+  <head>
+    <!-- The head element contains additional information (metadata) about your site. -->
+    <meta charset="UTF-8" />
+    <!-- meta tags are referred to as "self-closing" - meaning they do not require a </meta> at the end like other tags -->
+    <!-- Some examples of self closing tags that we will be using are:
+
+      the image tag, for inserting images on our pages:
+      <img src="my_image.jpeg" alt="my image alternate text"/>
+
+      the break tag, for inserting line breaks in between text or sections:
+      <br />
+
+      the horizontal rule, for adding a visible separation in between content:
+      <hr />
+    -->
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <link rel="stylesheet" href="styles2.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Also including in the head element are links to external stylesheets.
+      In the two links above, the first links to a CSS Stylesheet within the current project. The second links to a Google stylesheet that allows us to use different fonts provided by Google.
+    -->
+
+    <title>SEAT | Intro to HTML and CSS</title>
+    <!-- The title tag is the name of our page. This text appears in the tab of our browser that contains our project -->
+  </head>
+  <body>
+    <!-- The body tag is where all of the viewable content our site is contained -->
+
+    <header>
+      <!-- The header tags is typically used for introductory material to our site at the top of the page. There is no limitation as to how much or little content should go in the header. They may appear short as a status bar to as tall as the entire height of the screen.  -->
+
+      <h1>Intro to HTML and CSS</h1>
+
+      <!-- Headings  -->
+      <!-- <h1>h1 is the largest of the heading tags</h1>
+        <h2>is slightly smaller than h1 </h2>
+        <h3>is slightly smaller than h2</h3>
+        <h4>is slightly smaller than h3</h4>
+        <h5>is slightly smaller than h4</h5>
+        <h6>is the smallest of the heading tags</h6>
+      -->
+    </header>
+
+    <main>
+      <!-- After our introductory content at the top of our page, we can display the main content of our page inside of a main tag -->
+
+      <!-- The main contents of our site may have several   -->
+
+      <!-- There is no limitation as to how much content should go inside of the main tag. It all depends on how creative you want to be and how much content you want to add -->
+
+      <p>
+        This is a paragraph. This paragraph is enclosed within
+        paragraph tags. It contains reading material a that a user may
+        find interesting.
+      </p>
+
+      <p>
+        The bulk of the reading material on websites are paragraphs
+      </p>
+    </main>
+  </body>
+</html>
+
+<!--
+
+  10 - 15 min activity:
+
+    Visit a couple of your favorite websites and see if you can identify some of the HTML elements that we discussed today - header, headings and paragraphs.
+
+    If needed, write down what your user experience is like as you are interacting with the sites. i.e.: what happens when I hover over this, what happens when I click on that.
+
+    These are everyday interactions that we have with webpages only now we are training ourselves to think why certain HTML elements behave the way they do.
+
+ -->
