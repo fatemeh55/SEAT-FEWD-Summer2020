@@ -24,25 +24,20 @@ Although Codesandbox was built on top of Visual Studio Code, sometimes Visual St
 
 ### Downloads
 
-<div class="icon-container">
-<div>
-  <div style="width: 70px;">
-    <img title="VSCode" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png"
+  <div >
+    <img style="width: 70px;" title="VSCode" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png"
       alt="Visual Studio Code icon"
       style="max-width: 100%" />
   </div>
-</div>
 
   [Visual Studio Code](https://code.visualstudio.com/download)
 
 
-<div>
-  <div style="width: 70px">
-    <img title="Git" src="https://cdn.iconscout.com/icon/free/png-256/git-1-226092.png"
+  <div >
+    <img style="width: 70px" title="Git" src="https://cdn.iconscout.com/icon/free/png-256/git-1-226092.png"
       alt="Git icon"
       style="max-width: 100%" />
   </div>
-<div>
 
 [Git](https://git-scm.com/downloads)
 
