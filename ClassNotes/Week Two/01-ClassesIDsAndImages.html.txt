@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Classess, IDs and styles</title>
+  </head>
+  <body>
+    <style>
+      /* When it comes to applying styles to HTML element we have serval options to select specific elements  */
+
+      p {
+        /* Here we're defining styles to be applyed to all paragraphs  */
+        font-size: 24px;
+        color: blue;
+        line-height: 40px;
+      }
+
+      .para-one {
+        /* A class is applyed to the first two paragraphs in this document of 'para-one' */
+
+        font-weight: 100;
+
+        /* font-weight: bold */
+
+        /* We can make HTML elements bold with not only the <b> tag in HTML, but also by using the font-weight property in CSS. */
+
+        /*Here we are making all HTML elements with the class of 'para-one' bold  */
+
+        /* Numberical values are also possible with font-weight: 
+          100, 200, 300, 400, 500, 600 700, 800, 900 */
+      }
+
+      .para-two {
+        font-size: 30px;
+        color: red;
+      }
+      /* //////////////////////// */
+      /* /// Classess and IDs /// */
+      /* //////////////////////// */
+
+      /* Though we started the paragraph with the class of 'para-two' with a css rule for the <p>, we overrode that style with a style rule for .para-two  */
+
+      /* We say 'override' becuase the browser reads our file from top to bottom.*/
+
+      /* 
+      if we continue to apply styles to our <p> the browser will apply the style that it reads last:
+
+        p {color : green } // is read first - this style is applied  but its overridden by the styles below
+
+        p {color : blue } // is read second and it is also applied
+
+        p {color : red } // is the style that is finally applied becuase it is read last
+      
+
+      
+       */
+
+      #heading {
+        font-size: 28px;
+      }
+
+      b,
+      span {
+        background-color: yellow;
+      }
+
+      /* span {
+      background-color: yellow;
+    } */
+
+      img {
+        border-radius: 10px;
+        box-shadow: 2px 8px 12px #999;
+        width: 200px;
+        margin: 20px;
+      }
+    </style>
+
+    <!-- 
+      <h1>h1</h1>
+      <h2>h2</h2>
+      <h3>h3</h3>
+      <h4>h4</h4>
+      <h5>h5</h5>
+      <h6>h6</h6>
+ -->
+
+    <h3 id="heading">this is the heading for the paragraphs</h3>
+
+    <!-- ////////////////// -->
+    <!-- ///// Images ///// -->
+    <!-- ////////////////// -->
+
+    <!-- Images can be instered using an external link or we can use an image inside of our project folder -->
+
+    <img src="https://picsum.photos/250" alt="placeholder image" />
+
+    <!-- Here we're using an external link. This image lives at "https://picsum.photos/250" -->
+
+    <img
+      src="../../img/dog-puppy-on-garden-royalty-free-image-1586966191.jpg"
+      alt="photo of puppy from my project folder"
+    />
+    <!-- Here I'm using an image located inside of a folder that I have designated for images within my project  -->
+
+    <p class="para-one">
+      <!-- /////////////////////// -->
+      <!-- /// Classes and IDs /// -->
+      <!-- /////////////////////// -->
+
+      <!-- Class and IDs are reusable throught out your document and your website. Here we are using class='para-one' two paragraph tags, but we could theoretically use it on every HTML element on the page-->
+
+      <!-- IDs, however may only be used once though out the document -->
+
+      this is the <b class="highlight">first paragraph</b>
+    </p>
+
+    <p class="para-one">
+      this is another <b class="highlight">paragraph</b> with the
+      class of 'para-one'
+    </p>
+
+    <p class="para-two">
+      this is the <span class="highlight">second paragraph</span>
+    </p>
+  </body>
+</html>
