@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>My Kitchen Adventures</title>
+  </head>
+
+  <body>
+    <!-- Continuing our discussion of HTML elements, we typically begin a web page with a header element -->
+    <header>
+      <h1>My Kitchen Adventures</h1>
+    </header>
+
+    <!-- We have been using a single element inside of our headers so far, but its not uncommon to see icons, searchbars, links and logos in the header as well -->
+
+    <nav>
+      <ul>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Kitchen Tools</a></li>
+      </ul>
+    </nav>
+    <!-- The <nav> tag tells the browser that this is a navagational element. Ususally it includes a <ul> or <ol> with <a> tags nested inside of <li>. This nested structure allows our list items to open links to the other pages of our site -->
+
+    <main>
+      <!-- the <main> tag contains all the main content of our web page. In this page, it contains the content of the intro and articles sections -->
+
+      <div class="intro">
+        <!-- having divs wrapped around a group of elements helps us define the different sections of a web page. Classes and id are helpful in not only further defining a clear separation of content but givs us more flexability to sytle the html tag, class, and id separatly-->
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Eaque, ex nulla? Illo, quod aut deserunt, repellat
+          accusantium aliquid architecto eveniet reiciendis voluptatum
+          placeat est maxime quia itaque corrupti temporibus ea.
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Eaque, ex nulla? Illo, quod aut deserunt, repellat
+          accusantium aliquid architecto eveniet reiciendis voluptatum
+          placeat est maxime quia itaque corrupti temporibus ea.
+        </p>
+      </div>
+
+      <div class="articles">
+        <!-- Same as our intro section - but with an added <div> around individual content. ie: each article has an <h3> and <p> tags, so it makes sense to "individually wrap" them within the articles div -->
+        <div class="article">
+          <h3>
+            My Favorite Applicances
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+
+        <div class="article">
+          <h3>My Favorite Spices</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+
+      <div class="gallary">
+        <!-- similar to the articles section, here we're wrapping each image with a <div> tag with a class of img-wrapper - this gives us the greatest flexability when sizing the images using CSS. Also, all of the image wrappers are enclosed in single <div> with a class of gallary -->
+        <div class="img-wrapper">
+          <img
+            src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=631&q=80"
+            alt="placeholder food image"
+          />
+        </div>
+
+        <div class="img-wrapper">
+          <img
+            src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+            alt="placeholder food image"
+          />
+        </div>
+        <div class="img-wrapper">
+          <img
+            src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+            alt="placeholder food image"
+          />
+        </div>
+      </div>
+
+      <footer>
+        <!-- Just like most web pages have a <header> element at the to of the page, most pages have a <footer> element at the bottom of the page.  -->
+
+        <!-- there are no hard rules about what should go in the footer, it could be a list, serval lists, images, text, icons, or a combination of each  -->
+        <p>copyright @ 2020</p>
+      </footer>
+    </main>
+  </body>
+</html>
