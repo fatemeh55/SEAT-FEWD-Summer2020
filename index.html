@@ -6,67 +6,84 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
+
   <body>
-    <style>
-      p {
-        font-size: 24px;
-        color: blue;
-        line-height: 40px;
-      }
+    <header>
+      <h1>My Kitchen Adventures</h1>
+    </header>
 
-      .para-one {
-        font-weight: 100;
-        /* font-weight: bold */
-      }
+    <nav>
+      <ul>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Kitchen Tools</a></li>
+      </ul>
+    </nav>
 
-      .para-two {
-        color: red;
-        font-size: 30px;
-      }
+    <main>
+      <div class="intro">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Eaque, ex nulla? Illo, quod aut deserunt, repellat
+          accusantium aliquid architecto eveniet reiciendis voluptatum
+          placeat est maxime quia itaque corrupti temporibus ea.
+        </p>
 
-      #heading {
-        font-size: 28px;
-      }
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Eaque, ex nulla? Illo, quod aut deserunt, repellat
+          accusantium aliquid architecto eveniet reiciendis voluptatum
+          placeat est maxime quia itaque corrupti temporibus ea.
+        </p>
+      </div>
 
-      b,
-      span {
-        background-color: yellow;
-      }
-      /* Applying the same CSS rule to multiple HTML elements */
-      /* span {
-      background-color: yellow;
-    } */
+      <div class="articles">
+        <div class="article">
+          <h3>
+            My Favorite Applicances
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
 
-      img {
-        border-radius: 10px;
-        box-shadow: 2px 8px 12px #999;
-      }
-    </style>
+        <div class="article">
+          <h3>My Favorite Spices</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
 
-    <!-- <h1>h1</h1>
-<h2>h2</h2>
-<h3>h3</h3>
-<h4>h4</h4>
-<h5>h5</h5>
-<h6>h6</h6> -->
+      <div class="img-wrapper">
+        <img
+          src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=631&q=80"
+          alt="placeholder food image"
+        />
+      </div>
 
-    <h3 id="heading">this is the heading for the paragraphs</h3>
+      <div class="img-wrapper">
+        <img
+          src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+          alt="placeholder food image"
+        />
+      </div>
+      <div class="img-wrapper">
+        <img
+          src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+          alt="placeholder food image"
+        />
+      </div>
 
-    <img src="https://picsum.photos/250" alt="placeholder image" />
-
-    <p class="para-one">
-      this is the <b class="highlight">first paragraph</b>
-    </p>
-
-    <p class="para-one">
-      this is another <b class="highlight">paragraph</b> with the
-      class of 'para-one'
-    </p>
-
-    <p class="para-two">
-      this is the <span class="highlight">second paragraph</span>
-    </p>
+      <footer>
+        <p>copyright @ 2020</p>
+      </footer>
+    </main>
   </body>
 </html>
