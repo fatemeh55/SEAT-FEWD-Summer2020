@@ -1,0 +1,14 @@
+Home
+
+* Resize images
+* Change fonts - size and color
+* Add padding to div
+* Hover States
+
+About
+
+
+Recipes
+
+
+Tools
