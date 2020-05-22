@@ -1,63 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Document</title>
-</head>
-<style>
-  
-</style>
-<body>
-<header>
-    <h1>MY Kitchen Adventures</h1>
+  </head>
+  <body>
+    <style>
+      p {
+        font-size: 24px;
+        color: blue;
+        line-height: 40px;
+      }
 
-</header>
+      .para-one {
+        font-weight: 100;
+        /* font-weight: bold */
+      }
 
-<nav>
-  <ul>
-    <li>
-      <a href="#">About</a>
-    </li>
-    <li>
-      <a href="" </li>
-  </ul>
-</nav>
-<main> 
-    <div>
-      <p>
-        This is first writing.
-      </p>
-    </div>
+      .para-two {
+        color: red;
+        font-size: 30px;
+      }
 
-        <div class=" articles"> 
-          <div class="article">
+      #heading {
+        font-size: 28px;
+      }
 
+      b,
+      span {
+        background-color: yellow;
+      }
+      /* Applying the same CSS rule to multiple HTML elements */
+      /* span {
+      background-color: yellow;
+    } */
 
-          </div><h3>this is header</h3>
-          <p>this is paragraf</p>
+      img {
+        border-radius: 10px;
+        box-shadow: 2px 8px 12px #999;
+      }
+    </style>
 
-          <div class="article">
+    <!-- <h1>h1</h1>
+<h2>h2</h2>
+<h3>h3</h3>
+<h4>h4</h4>
+<h5>h5</h5>
+<h6>h6</h6> -->
 
-          </div>
-          </div>
-                   
-        
+    <h3 id="heading">this is the heading  the paragraphs</h3>
 
-          
-          
-        
-        
-        
-        </div>
-    
+    <img src="https://picsum.photos/250" alt="placeholder image" />
 
-    
+    <p class="para-one">
+      this is the <b class="highlight">first paragraph</b>
+    </p>
 
+    <p class="para-one">
+      this is another <b class="highlight">paragraph</b> with the
+      class of 'para-one'
+    </p>
 
-</main>
-
-
-    
-</body>
+    <p class="para-two">
+      this is the <span class="highlight">second paragraph</span>
+    </p>
+  </body>
 </html>
