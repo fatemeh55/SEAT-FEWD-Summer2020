@@ -12,3 +12,25 @@ Recipes
 
 
 Tools
+=============================
+
+
+
+
+
+
+
+
+
+
+git add .
+git commit -m 'resolved merge conflict'
+git push origin master
+
+
+
+
+
+
+https://www.youtube.com/watch?v=w3jLJU7DT5E&t=6s
+git pull upstream master
