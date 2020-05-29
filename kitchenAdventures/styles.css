@@ -60,6 +60,7 @@ header, .intro, .articles, .img-gallery {
 .article p {
 }
 
+<<<<<<< HEAD:styles.css
 .img-gallery{
   width: 80%;
   margin: 0 auto;
@@ -78,3 +79,26 @@ img{
   width: 250px;
   margin: 10px;
 }
+=======
+
+.img-gallery {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  max-width:100%;
+  
+}
+
+.img-wrapper {
+  border: 3px solid #333;
+  width: 300px;
+  margin: 10px
+}
+
+>>>>>>> eb9f3ee11bf0a43c7ef4fbc455f60c05bca575ba:kitchenAdventures/styles.css

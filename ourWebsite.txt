@@ -1,0 +1,72 @@
+<<<<<<< HEAD
+=======
+Home
+
+* Resize images
+* Change fonts - size and color
+* Add padding to div
+* Hover States
+
+About
+
+
+Recipes
+
+
+Tools
+=============================
+
+
+
+
+
+
+
+
+
+git add .
+git commit -m 'resolved merge conflict'
+git push origin master
+
+
+
+
+
+
+https://www.youtube.com/watch?v=w3jLJU7DT5E&t=6s
+git pull upstream master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// To sync
+git add .
+git commit -m 'work in progress'
+git pull upstream master
+
+//Resolve merge conflicts
+
+git add .
+git commit -m 'resolved merge conflicts'
+git push origin master
+>>>>>>> eb9f3ee11bf0a43c7ef4fbc455f60c05bca575ba
