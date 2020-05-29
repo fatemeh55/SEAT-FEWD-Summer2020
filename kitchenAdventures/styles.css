@@ -59,3 +59,25 @@ header, .intro, .articles, .img-gallery {
 
 .article p {
 }
+
+
+.img-gallery {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  max-width:100%;
+  
+}
+
+.img-wrapper {
+  border: 3px solid #333;
+  width: 300px;
+  margin: 10px
+}
+

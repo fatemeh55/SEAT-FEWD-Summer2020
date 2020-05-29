@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Flexbox</title>
+  </head>
+  <style>
+    main {
+      width: 80%;
+      border: 3px solid #333;
+      margin: 0 auto;
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    div {
+      height: 100px;
+      width: 100px;
+      border: 2px solid #000;
+      margin: 5px;
+
+
+      flex-shrink: 1;
+      flex-grow: 1;
+      flex-basis: 300px;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .blue {
+      background-color: blue;
+    }
+
+    .green {
+      background-color: green;
+    }
+    .yellow {
+      background: yellow;
+    }
+  </style>
+  <body>
+    <main>
+      <div class="red"></div>
+      <div class="red"></div>
+      <div class="red"></div>
+      <div class="blue"></div>
+      <div class="blue"></div>
+      <div class="blue"></div>
+      <div class="green"></div>
+      <div class="green"></div>
+      <div class="green"></div>
+      <div class="yellow"></div>
+    </main>
+  </body>
+</html>
