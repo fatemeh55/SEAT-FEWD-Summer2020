@@ -23,8 +23,8 @@ Tools
 
 
 git add .
-git commit -m 'resolved merge conflict'
-git push origin master
+git commit -m "work in progress"
+git pull upstream master
 
 
 

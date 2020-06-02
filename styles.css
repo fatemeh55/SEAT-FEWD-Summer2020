@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100vw;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+li {
+  width: 25%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  background: #0d88af;
+  padding: 20px;
+  display: block;
+  text-align: center;
+  transition: all 300ms ease-in-out;
+}
+
+a:hover {
+  /* color: #333; */
+  background: #ACD7BB;
+
+
+  /* hexadecimal numbers range from 0-9, a-f */
+
+  /* background: rgb(0, 255, 0); */
+}
+
+.social {
+  display: flex;
+  width: 200px;
+
+  /* give social div a width */
+  /* give social div icons */
+  /* give icons colors and background colors */
+  /* use transition to change icon colors background colors when hovering them  */
+}
+
+.social a {
+  background: rgb(200, 100, 255);
+  font-size: 3em;
+}
+
+.social a:hover {
+  background: rgb(219, 97, 97);
+}
