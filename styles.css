@@ -29,7 +29,19 @@ header {
 }
 
 li {
-  width: 25%;
+  flex: 1 1 100%;
+}
+
+header {
+  height: 100vh;
+
+  background-image: url("https://d3u03kk87rjfaq.cloudfront.net/wp-content/uploads/2009/06/03145943/farmers-markets.jpg");
+
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  box-shadow: 0 5px 12px rgba(51, 51, 51, 0.63);
 }
 
 a {
@@ -44,22 +56,32 @@ a {
 
 a:hover {
   /* color: #333; */
-  background: #ACD7BB;
-
+  background: #acd7bb;
 
   /* hexadecimal numbers range from 0-9, a-f */
 
-  /* background: rgb(0, 255, 0); */
+  background: rgb(80, 155, 80);
 }
 
 /* .social {
   display: flex;
+<<<<<<< HEAD
   width: 200px; */
+=======
+  max-width: 100%; */
+>>>>>>> 9a87fae31c535b8152fef709c248dc9e4cc82c58
 
-  /* give social div a width */
-  /* give social div icons */
-  /* give icons colors and background colors */
-  /* use transition to change icon colors background colors when hovering them  */
+/* give social div a width */
+/* give social div icons */
+/* give icons colors and background colors */
+/* use transition to change icon colors background colors when hovering them  */
+/* } */
+
+.social {
+  position: relative;
+  display: flex;
+  height: 10%;
+  justify-content: space-around;
 }
 .social {
   position: relative;
@@ -69,14 +91,72 @@ a:hover {
 }
 
 .social a {
+<<<<<<< HEAD
   background: rgb(200, 100, 255);
+=======
+>>>>>>> 9a87fae31c535b8152fef709c248dc9e4cc82c58
   padding: 10px;
   flex-grow: 1;
   align-self: flex-end;
 }
 
 .social a:hover {
-  background: rgb(219, 97, 97);
+  background-color: rgb(255, 100, 100);
+}
+
+.market {
+  width: 250px;
+  background-color: #555;
+  position: relative;
+  display: flex;
+}
+
+.img-wrapper {
+  width: 20em;
+}
+
+img {
+  max-width: 100%;
+
+  display: block;
+}
+
+.overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(136, 136, 136, 0.747),
+    rgb(16, 29, 73)
+  );
+
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+}
+
+.overlay-text {
+  padding: 15px;
+  /* margin-bottom: */
+}
+
+.overlay-text h4 {
+  margin-top: 40px;
+}
+.overlay-text p {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+.market:hover .overlay {
+  opacity: 1;
 }
 
 .market{
