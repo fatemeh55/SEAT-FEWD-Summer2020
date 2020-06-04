@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(120deg, rgb(238, 67, 118), #d88771);
+  font-family: sans-serif;
+  min-height: 100vh;
+  color: white;
+}
+
+header {
+  font-size: 1.5rem;
+}
+
+header,
+form {
+  margin: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  margin: 10px;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+
+form input:focus,
+form button:focus {
+  outline: 5px solid dodgerblue;
+}
+
+form {
+  color: #d88771;
+  /* background: white; */
+  cursor: pointer;
+  transition: all 0.03s ease;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list {
+  list-style: none;
+  min-width: 30%;
+}
+
+.todo {
+  margin: 0.5rem;
+  background: white;
+  color: #000000;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all .25s ease;
+}
+
+.todo li {
+  flex: 1;
+}
+
+.todo-item {
+  padding: 0 1rem;
+}
+
+.trash-btn,
+.complete-btn {
+  background-color: #e61e1e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.complete-btn {
+  background: #3bd8bb;
+}
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  text-decoration-color: black;
+  opacity: 0.5;
+}
