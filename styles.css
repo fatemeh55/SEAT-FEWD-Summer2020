@@ -1,4 +1,7 @@
-=====
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -13,20 +16,6 @@ ul {
   list-style: none;
   justify-content: center;
 }
-header {
-  height: 100vh
-  background-image: url(https://d3u03kk87rjfaq.cloudfront.net/
-  wp-content/uploads/2009/06/03145943/
-  farmers-markets.jpg);
-
-
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-bottom: 50px;
-
-
-}
 
 li {
   flex: 1 1 100%;
@@ -34,6 +23,7 @@ li {
 
 header {
   height: 100vh;
+  background-image: rgba(211, 211, 201, 0.418);
 
   background-image: url("https://d3u03kk87rjfaq.cloudfront.net/wp-content/uploads/2009/06/03145943/farmers-markets.jpg");
 
@@ -65,11 +55,7 @@ a:hover {
 
 /* .social {
   display: flex;
-<<<<<<< HEAD
-  width: 200px; */
-=======
   max-width: 100%; */
->>>>>>> 9a87fae31c535b8152fef709c248dc9e4cc82c58
 
 /* give social div a width */
 /* give social div icons */
@@ -83,18 +69,8 @@ a:hover {
   height: 10%;
   justify-content: space-around;
 }
-.social {
-  position: relative;
-  display: flex;
-  height: %10;
-  justify-content: space-around;
-}
 
 .social a {
-<<<<<<< HEAD
-  background: rgb(200, 100, 255);
-=======
->>>>>>> 9a87fae31c535b8152fef709c248dc9e4cc82c58
   padding: 10px;
   flex-grow: 1;
   align-self: flex-end;
@@ -158,58 +134,37 @@ img {
 .market:hover .overlay {
   opacity: 1;
 }
-
-.market{
-  width: 250px;
-  background-color: #555;
-  position: relative;
-}
-
-
-.img-wrapper{
-  width: 20em;
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
-.overlay{
-  background: linear-gradient( to bottom, #888, #000) ;
-  max-width: 100%;
-  position: absolute;
-  bottom:0;
-  top: 0;
-  right: 0;
-  left: 0;
-  opacity:0;
-  transition: all 0.5s case in out;
-  flex-direction: column;
-  justify-content: center;
-  align-content: space-between;
+main {
+  background-color: #8f5;
+  width: 90%;
+  margin: 0 auto;
 
 }
+main{
+  background-color: rgba(230, 230, 236, 0.418);
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 5px 8px 12px rgba(136, 136, 136, 0.747);
 
-.overlay-text {
-  padding: 15px;
-  margin-bottom: 35%;
-}
-
-.overlay text h4 {
-  margin-top: 48%;
-
-}
-.overlay text p{
-  margin-top: 10px;
-  font-size: 0.6em;
-
-}
-.market:hover .overlay{
-  opacity:1
 }
 
 
 
 
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
 
+  
+
+.footer-links{
+  display: flex;
+  width: 90%
+  margin: 0 auto;
+}
+.footer list{
+  width: 30%
+  flex-direction: column
+}
 
