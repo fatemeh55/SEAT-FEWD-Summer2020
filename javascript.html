@@ -11,6 +11,10 @@
   <body>
     <main id="main"></main>
 
+    <section id="section">
+      <h3>heading</h3>
+    </section>
+
     <script>
       var greeting = document.createElement("p");
 
@@ -21,10 +25,106 @@
 
       main.appendChild(greeting);
 
+      console.log(main);
 
-      console.log(main)
+      // write 4 functions that add subtract, multiply and divide two parameters
+
+      function multiply(parameter1, parameter2) {
+        return parameter1 * parameter2;
+      }
+
+      function add(a, b) {
+        return a + b;
+      }
+
+      function subtract(num1, num2) {
+        return num1 - num2;
+      }
+
+      function divide(a, b) {
+        return a / b;
+      }
 
 
+      // function makeNegative ( number ) {
+      //   if () {
+      //   }
+      //   return number * -1;
+      // }
+
+
+      // var age = 16;
+
+      // if ( age = 18 ) {
+      //   console.log("you are at least 18! you may enter my cool site")
+      // }
+
+    
+      // else {
+      //   console.log('you are not over 18')
+      // }  
+
+
+
+
+        var age = 59;
+
+        if ( age <= 18 ) {
+          console.log("you are not an adult")
+        }
+
+        else if (age >=18 && age < 60 ) {
+          console.log('you are an adult')
+        }
+
+        else {
+          console.log('you are a senior citizen.')
+        }
+
+
+
+        // create a variable called "order" 
+        
+        // if the order is chocolate then console.log "Chocolate is not available"
+
+        // if the order is cheesecake console.log "cheesecake is my favorite"
+
+        // otherwise greet the customer ie: "welcome to our online cake shop"
+
+
+        var order = "";
+
+        if (order === 'chocolate') {
+          console.log("Chocolate is not available")
+        }
+
+        else if (order === "cheesecake") {
+          console.log("Cheesecake is my favorite, we had 5 left!")
+        }
+
+        else if (order != 'chocolate' ||  order != 'cheesecake') {
+          console.log("that is not a cake that we carry")
+        }
+
+        else {
+          console.log('Welcome to our online bakery')
+        }
+
+
+        
+
+      // console.log("multiply: ", multiply(5, 5));
+
+      // console.log("add ", add(10, 10));
+
+      // console.log("subtract: ", subtract(9, 4));
+
+      // console.log("divide: ", divide(28, 2));
+
+      // console.log(makeNegative(9));
+      // console.log(makeNegative(19))
+      // console.log(makeNegative(93))
+      // console.log(makeNegative(8838))
     </script>
   </body>
 </html>
