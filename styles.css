@@ -1,10 +1,38 @@
+<<<<<<< HEAD
 
 
 
+=======
+/* //////////////////////// */
+/* ////////// TODO //////// */
+/* //////////////////////// */
+
+/* User Story */
+/* 
+  the text in the maket image is under the social media icons. As a user, there should be apporipriate spacing in between these two sections to view easlier.
+*/
+
+/* Solution (Develpoer) */
+/* Social div and overlay text div - perphas a flexbox issue */
+
+/* User Story */
+/* 
+  As a user, I need to scroll down the webpage in a smooth motion with scrolling from side to side
+*/
+
+/* Solution (Develpoer) */
+
+/* Horizontal scrolling - prehaps an overflow issue */
+>>>>>>> 62a08998760bce44e77bd8aaea1dd6d2e2743b73
 
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+
 }
 
 nav {
@@ -25,14 +53,26 @@ header {
   height: 100vh;
   background-image: rgba(211, 211, 201, 0.418);
 
-  background-image: url("https://d3u03kk87rjfaq.cloudfront.net/wp-content/uploads/2009/06/03145943/farmers-markets.jpg");
+  background-image: 
+    linear-gradient(rgba(211, 211, 201, 0.418), #000),
+    
+    url("https://d3u03kk87rjfaq.cloudfront.net/wp-content/uploads/2009/06/03145943/farmers-markets.jpg");
 
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 50px;
   box-shadow: 0 5px 12px rgba(51, 51, 51, 0.63);
+  object-fit: fill;
 }
+
+ header h1, header h2 {
+  background: linear-gradient(to right, rgba(51, 51, 51, 0.842), transparent);
+  color: #fff;
+  
+}
+
+
 
 a {
   text-decoration: none;
@@ -85,6 +125,7 @@ a:hover {
   background-color: #555;
   position: relative;
   display: flex;
+  margin: 10px;
 }
 
 .img-wrapper {
@@ -134,6 +175,7 @@ img {
 .market:hover .overlay {
   opacity: 1;
 }
+<<<<<<< HEAD
 main {
   background-color: #8f5;
   width: 90%;
@@ -168,3 +210,29 @@ justify-content: center;
   flex-direction: column
 }
 
+=======
+
+
+main {
+  background-color: rgb(230, 236, 228);
+  width: 90%;
+  margin: 0 auto; 
+  box-shadow: 5px 8px 12px rgba(170, 170, 170, 0.705);
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-links {
+  display: flex; 
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer-list {
+  width: 30%;
+  flex-direction: column;
+}
+>>>>>>> 62a08998760bce44e77bd8aaea1dd6d2e2743b73
